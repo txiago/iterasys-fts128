@@ -1,3 +1,2 @@
-Repositório com os conteúdos, exercícios e demais tarefas do curso de Formação em Teste de Software, Turma 128, da Iterasys.
-
-Alteração do arquivo.
+Repositório com os conteúdos, exercícios e demais tarefas do curso de Formação em Teste de Software, Turma 128, da Iterasys
+Microsoft ToDo. NOva ferramenta de produtividade adquirida pela microsoft a partir de uma startup alemã.
