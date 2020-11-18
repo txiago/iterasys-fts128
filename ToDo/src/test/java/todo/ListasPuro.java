@@ -46,7 +46,7 @@ public class ListasPuro {
 
     @After
     public void finalizar(){
-        //driver.quit(); //Destrói o objeto Selenium WebDriver
+        driver.quit(); //Destrói o objeto Selenium WebDriver
 
     }
 
