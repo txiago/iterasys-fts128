@@ -1,5 +1,4 @@
-ID;Curso;Valor;Subtotal;Parcelamento;Browser
-1;TestLink;R$ 79,99;SUBTOTAL R$ 79,99;ou em 12 x de R$ 8,03;Chrome
-2;Mantis;R$ 49,99;SUBTOTAL R$ 49,99;ou em 12 x de R$ 5,02;Firefox
-3;TestLink;R$ 79,99;SUBTOTAL R$ 79,99;ou em 12 x de R$ 8,03;Edge
-4;Mantis;R$ 49,99;SUBTOTAL R$ 49,99;ou em 12 x de R$ 5,02;IE
+1;Formação em Teste de Software (Videoconferência);R$ 1.990,00;SUBTOTAL R$ 1.990,00;ou em 12 x de R$ 165,83;Chrome
+2;Mantis;R$ 22,90;SUBTOTAL R$ 22,90;ou em 3 x de R$ 7,63;Firefox
+3;Formação em Teste de Software (Videoconferência);R$ 1.990,00;SUBTOTAL R$ 1.990,00;ou em 12 x de R$ 165,83;Edge
+4;Mantis;R$ 22,90;SUBTOTAL R$ 22,90;ou em 3 x de R$ 7,63;IE
