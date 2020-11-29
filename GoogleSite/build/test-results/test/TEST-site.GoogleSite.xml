@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="site.GoogleSite" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-29T20:58:13" hostname="NOTE-FRODO" time="203.734">
+  <properties/>
+  <testcase name="consultaGoogle[0]" classname="site.GoogleSite" time="20.041"/>
+  <testcase name="consultaGoogle[1]" classname="site.GoogleSite" time="24.463"/>
+  <testcase name="consultaGoogle[2]" classname="site.GoogleSite" time="21.674"/>
+  <testcase name="consultaGoogle[3]" classname="site.GoogleSite" time="20.5"/>
+  <testcase name="consultaGoogle[4]" classname="site.GoogleSite" time="22.452"/>
+  <testcase name="consultaGoogle[5]" classname="site.GoogleSite" time="24.642"/>
+  <testcase name="consultaGoogle[6]" classname="site.GoogleSite" time="21.182"/>
+  <testcase name="consultaGoogle[7]" classname="site.GoogleSite" time="23.233"/>
+  <testcase name="consultaGoogle[8]" classname="site.GoogleSite" time="25.496"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1606683495019	geckodriver	INFO	Listening on 127.0.0.1:9243
+1606683495562	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Usuario\\AppData\\Local\\Temp\\rust_mozprofileqzKezV"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606683499983	Marionette	INFO	Listening on port 3932
+1606683500371	Marionette	WARN	TLS certificate errors will be ignored for this session
+nov 29, 2020 5:58:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+1606683511634	Marionette	INFO	Stopped listening on port 3932
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606683514105	geckodriver	INFO	Listening on 127.0.0.1:24460
+1606683514426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Usuario\\AppData\\Local\\Temp\\rust_mozprofileVjy9Kj"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606683519266	Marionette	INFO	Listening on port 4018
+1606683519789	Marionette	WARN	TLS certificate errors will be ignored for this session
+nov 29, 2020 5:58:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+1606683536467	Marionette	INFO	Stopped listening on port 4018
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606683538571	geckodriver	INFO	Listening on 127.0.0.1:43255
+1606683538886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Usuario\\AppData\\Local\\Temp\\rust_mozprofileJ0yLOy"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606683543123	Marionette	INFO	Listening on port 4112
+1606683543212	Marionette	WARN	TLS certificate errors will be ignored for this session
+nov 29, 2020 5:59:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+console.warn: SearchTelemetry: "Expected to report URI for" "https://www.google.com/search?source=hp&ei=mAvEX5iaHMq05OUPwYyY-AQ&q=Iterasys&oq=Iterasys&gs_lcp=CgZwc3ktYWIQA1DtBFjUBWD4BWgAcAB4AIABAIgBAJIBAJgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiYxrzP0qjtAhVKGrkGHUEGBk8Q4dUDCAY&uact=5" "with ads but couldn't find the information"
+1606683557956	Marionette	INFO	Stopped listening on port 4112
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 30402
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 29, 2020 5:59:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 10415
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 29, 2020 5:59:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 19524
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 29, 2020 6:00:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+Starting MSEdgeDriver 87.0.664.47 (ba159091e772c52e16e8d82850f3c8b934507b5d) on port 5876
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+nov 29, 2020 6:00:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+Starting MSEdgeDriver 87.0.664.47 (ba159091e772c52e16e8d82850f3c8b934507b5d) on port 45756
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+nov 29, 2020 6:00:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+Starting MSEdgeDriver 87.0.664.47 (ba159091e772c52e16e8d82850f3c8b934507b5d) on port 1515
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+nov 29, 2020 6:01:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+</testsuite>
