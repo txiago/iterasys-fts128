@@ -27,16 +27,16 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 
-@RunWith(Parameterized.class) // Esta classe È parametrizada = lÍ uma massa de testes
+@RunWith(Parameterized.class) // Esta classe √© parametrizada = l√™ uma massa de testes
 public class GoogleSite {
     WebDriver driver;
     static String url;
-    String pastaPrint = "evidencias/" + new SimpleDateFormat("yyyy-MM-dd HH-mm").format(Calendar.getInstance().getTime()) + "/";
+    String pastaPrint = "evidencias/" + new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(Calendar.getInstance().getTime()) + "/";
 
     public void tirarPrint(String nomePrint) throws IOException {
 
-        // Selenium(driver) > Camera (TakesScreenshot) > Botao da m·quina (getScreenshotAs) > Tira a foto >
-        // Grava na memÛria RAM o print de uma tela
+        // Selenium(driver) > Camera (TakesScreenshot) > Botao da m√°quina (getScreenshotAs) > Tira a foto >
+        // Grava na mem√≥ria RAM o print de uma tela
         File foto = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); // selenium com classe de tirar foto
 
         // Utilizar Biblioteca commons IO para manipular o arquivo do print da tela
@@ -45,7 +45,7 @@ public class GoogleSite {
         FileUtils.copyFile(foto,new File(pastaPrint + nomePrint + ".png"));
     }
 
-    // FunÁ„o para ler um arquivo com massa de testes
+    // Fun√ß√£o para ler um arquivo com massa de testes
 
     // 1 - Atributos / Massa de Teste
     private String id;
@@ -63,26 +63,26 @@ public class GoogleSite {
         this.browser = browser;
     }
 
-    // 3 - Collection Intermedi·ria entre construtor e a Collection que vai fazer  a leitura de verdade
+    // 3 - Collection Intermedi√°ria entre construtor e a Collection que vai fazer  a leitura de verdade
     // Ela serve para apontar a pasta e o nome do arquivo a ser lido
-    // Collection neste caso È uma coleÁ„o de texto, uma tabela. Um vetor bidimensional
+    // Collection neste caso √© uma cole√ß√£o de texto, uma tabela. Um vetor bidimensional
     @Parameterized.Parameters
     public static Collection<String[]> LerArquivo() throws IOException {
         return LerCSV("db/FTS128 Massa Pesquisa Google.csv");
     }
 
-    // 4 - Collection que lÍ uma arquivo no formato CSV
-    // Vai pegar o arquivo de dados inteiro e quebrar em pedaÁos para a leitura
+    // 4 - Collection que l√™ uma arquivo no formato CSV
+    // Vai pegar o arquivo de dados inteiro e quebrar em peda√ßos para a leitura
     public static Collection<String[]> LerCSV(String nomeCSV) throws IOException {
-        // LÍ o arquivo do disco e disponibiliza para a leitura do arquivo pela memÛria RAM
+        // L√™ o arquivo do disco e disponibiliza para a leitura do arquivo pela mem√≥ria RAM
         BufferedReader arquivo = new BufferedReader(new FileReader(nomeCSV));
         String linha; // Fazer o 'corte' em fileiras da barra de chocolate
         List<String[]> dados = new ArrayList<>();
 
-        // O readline vai lendo linha por linha do arquivo, atÈ que n„o tenha mais linhas
-        // Executa v·rias vezes atÈ que encontre uma linha nula
+        // O readline vai lendo linha por linha do arquivo, at√© que n√£o tenha mais linhas
+        // Executa v√°rias vezes at√© que encontre uma linha nula
         while ((linha = arquivo.readLine()) != null){
-            // separa os dados da linha separados por ponto-e-vÌrgula
+            // separa os dados da linha separados por ponto-e-v√≠rgula
             String[] campos = linha.split(";");
             dados.add(campos);
         }
@@ -133,14 +133,14 @@ public class GoogleSite {
         tirarPrint("1 - Pesquisa por Iterasys no Google");
         Thread.sleep(2000);
 
-        // No resultado da busca por 'Iterasys' procura por um link especÌfico(link listado na massa de dados)
+        // No resultado da busca por 'Iterasys' procura por um link espec√≠fico(link listado na massa de dados)
         driver.findElement(By.xpath("//a[contains(@href,\'"+link+"\')]")).click();
         Thread.sleep(4000);
 
-        String titulo = driver.getTitle(); //Armazena o tÌtulo da p·gina
-        //System.out.println(titulo); // Testa no console a saÌda do campo titulo
-        tirarPrint("Acesso na p·gina");
-        assertTrue(titulo.contains(tituloPagina)); //Verifica se a p·gina acessada corresponde a indicada na massa de testes
+        String titulo = driver.getTitle(); //Armazena o t√≠tulo da p√°gina
+        //System.out.println(titulo); // Testa no console a sa√≠da do campo titulo
+        tirarPrint("Acesso na p√°gina");
+        assertTrue(titulo.contains(tituloPagina)); //Verifica se a p√°gina acessada corresponde a indicada na massa de testes
         Thread.sleep(1000);
     }
 
