@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mobileNuvem.PetzNuvem" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-03T19:20:49" hostname="NOTE-FRODO" time="299.018">
+  <properties/>
+  <testcase name="realizarLogin" classname="mobileNuvem.PetzNuvem" time="299.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[jan 03, 2021 4:25:22 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMAÇÕES: Detected dialect: OSS
+]]></system-err>
+</testsuite>
